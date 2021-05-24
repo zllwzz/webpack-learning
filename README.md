@@ -92,7 +92,7 @@ npm i uglifyjs-webpack-plugin terser-webpack-plugin optimize-css-assets-webpack-
 - terser-webpack-plugin
     - parallel 是否开启多进程并行压缩
     - cache 开启缓存
-```json
+```js
 optimization: {
     minimize: true,
     minimizer: [
