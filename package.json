@@ -19,15 +19,35 @@
   },
   "homepage": "https://github.com/zllwzz/webpack-learning#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.14.2",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.5",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.2",
+    "html-withimg-loader": "^0.1.16",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^4.0.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.0",
+    "postcss-loader": "^4.3.0",
+    "sass-loader": "^9.0.0",
     "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^1.4.5",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^4.1.1",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.0"
   }
 }
